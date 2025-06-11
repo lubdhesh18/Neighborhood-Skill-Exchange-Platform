@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register | SkillExchange</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="registration-wrapper">
+    <aside class="left-panel">
+      <h1>Welcome to SkillExchange</h1>
+      <p>Find people nearby to teach or learn new skills together!</p>
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Learning Illustration" />
+    </aside>
+
+    <aside class="right-panel">
+      <form class="register-form">
+        <h2>Create Account</h2>
+
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="password" placeholder="Password" required />
+        <input type="password" placeholder="Confirm Password" required />
+
+        <select required>
+          <option value="">Select Role</option>
+          <option>Learn a Skill</option>
+          <option>Teach a Skill</option>
+          <option>Both</option>
+        </select>
+
+        <input type="text" placeholder="Your Location" required />
+        <textarea placeholder="Skills you are interested in (e.g. Guitar, Photography)" rows="3"></textarea>
+
+        <button type="submit" class="submit-btn">Register</button>
+        <p class="login-link">Already have an account? <a href="./login.html">Login</a></p>
+      </form>
+    </aside>
+  </section>
+</body>
+</html>

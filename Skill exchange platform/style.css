@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  color: #2d3436;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00b894;
+  padding: 15px 30px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav-links li .navbtn:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login {
+  background-color: #0984e3;
+}
+.login:hover{
+    background-color: #0e62ab;
+    text-decoration: none;
+    transform: scale(1.02);
+    box-shadow: 6px 6px 18px rgba(0,0,0,0.3);
+}
+
+.register {
+  background-color: #fdcb6e;
+  color: black;
+}
+.register:hover{
+  transform: scale(1.02);
+  box-shadow: 6px 6px 18px rgba(0,0,0,0.3);
+}
+ 
+/* Get Started section */
+.MidSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 30px;
+  background: linear-gradient(120deg, #dfe6e9, #ffffff);
+  text-align: center;
+  background: url(./images/BG-Image.jpg) no-repeat center/cover;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MidSection-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.MidSection-text p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  max-width: 600px;
+  margin-inline: auto;
+  padding-bottom: 10px;
+}
+
+.cta-btn {
+  background-color: #00b894;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #019270;
+}
+
+/* Working */
+.working {
+  padding: 60px 30px;
+  background: white;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: #f1f2f6;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+.card:hover{
+  transform: scale(1.02);
+  box-shadow: 6px 6px 18px rgba(0,0,0,0.3);
+  background: linear-gradient(to right, #e6f7ff, #ccf2ff);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #636e72;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2d3436;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Register page */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+}
+
+.registration-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-panel {
+  flex: 1;
+  background: linear-gradient(135deg, #81ecec, #74b9ff);
+  color: white;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-panel img {
+  width: 200px;
+  margin-top: 30px;
+}
+
+.right-panel {
+  flex: 1;
+  background: #ffffff;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-form h2 {
+  margin-bottom: 30px;
+  color: #2d3436;
+  text-align: center;
+}
+
+.register-form input, .register-form select, .register-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.register-form textarea {
+  resize: vertical;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.form-check input {
+  margin-right: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #0984e3;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #74b9ff;
+}
+
+.login-link {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
+
+.login-link a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+/* Login Page */
